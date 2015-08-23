@@ -89,10 +89,3 @@
     image: someuser/oldandbusted
     state: stopped
 
-# Stop and remove a container with the specified name.
-
-- name: obsolete container
-  docker:
-    name: ohno
-    image: someuser/oldandbusted
-    state: absent
